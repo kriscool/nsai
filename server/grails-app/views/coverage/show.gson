@@ -1,0 +1,7 @@
+import demo.Coverage
+
+model {
+	Coverage coverage
+}
+
+json tmpl.coverage(coverage)

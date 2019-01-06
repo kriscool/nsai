@@ -1,0 +1,7 @@
+import demo.Coverage
+
+model {
+	Coverage coverage
+}
+
+json g.render(coverage, [resolveTemplate: false])

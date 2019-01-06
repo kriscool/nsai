@@ -1,0 +1,8 @@
+import demo.Coverage
+
+model {
+	Iterable<Coverage> coverageList
+}
+
+json tmpl.coverage(coverageList ?: [])
+
